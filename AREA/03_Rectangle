@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class _AREA {
+    public static void main(String[] args) {
+        float l, b;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter  the length of the Rectangle :");
+        l = s.nextFloat();
+        System.out.println("Enter  the width of the Rectangle :");
+        b = s.nextFloat();
+        System.out.println("Area of given Rectangle  : " + l * b);
+        s.close();
+    }
+}
