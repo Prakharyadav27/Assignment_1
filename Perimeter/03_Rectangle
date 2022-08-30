@@ -8,7 +8,7 @@ public class Perimeter {
         l = s.nextFloat();
         System.out.println("Enter width :~ ");
         w = s.nextFloat();
-        System.out.println("Perimeter of given triangle ~ " + 2 * (l + w));
+        System.out.println("Perimeter of given Rectangle ~ " + 2 * (l + w));
         s.close();
 
     }
