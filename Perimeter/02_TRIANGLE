@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Perimeter {
+    public static void main(String[] args) {
+        float a,b,c;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter Length of side 1 :~ ");
+        a=s.nextFloat();
+        System.out.println("Enter Length of side 2 :~ ");
+        b=s.nextFloat();
+        System.out.println("Enter Length of side 3 :~ ");
+        c=s.nextFloat();
+        System.out.println("Perimeter of given triangle ~ "+(a+b+c));
+        s.close();
+
+    }
+    
+}
