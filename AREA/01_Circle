@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class _AREA {
+    public static void main(String[] args) {
+        float radius;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter Radius :~ ");
+        radius = s.nextFloat();
+        System.out.println("Area of given circle :~ " + radius * 3.14);
+
+    }
+}
