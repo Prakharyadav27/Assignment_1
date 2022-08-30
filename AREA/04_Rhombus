@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class _AREA {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        float D1,D2;
+        System.out.println("Enter  the length of Diagonal 1 :");
+        D1=s.nextFloat();
+        System.out.println("Enter  the width of the Diagonal 2 :");
+        D2=s.nextFloat();
+        System.out.println("Area of given Rhombus  : "+.5*D1*D2);
+        s.close();
+    }
+}
