@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class _AREA {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        float h, b;
+        System.out.println("Enter  the height :");
+        h = s.nextFloat();
+        System.out.println("Enter  the base :");
+        b = s.nextFloat();
+        System.out.println("Area of given Rhombus  : " + h * b);
+        s.close();
+    }
+}
