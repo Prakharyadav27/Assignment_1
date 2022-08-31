@@ -1,0 +1,61 @@
+import java.util.Scanner;
+
+public class AreaCalculator {
+         public static void main(String[] args){
+            int Option;
+            Scanner s= new Scanner(System.in);
+            System.out.println("Chose the correct option :~ \n 1> Circle. \n 2> Triangle. \n 3> Rectangle \n 4> Rhombus \n 5> Parallelogram\n 6> Square ");
+            System.out.println("Enter ur Choice :~ ");
+            Option=s.nextInt();
+            if (Option==1){
+                System.out.println("Please enter the radius of circle :~ ");
+                Float radius;
+                radius=s.nextFloat();
+                System.out.println("Area of given CIRCLE : "+ radius*3.14);
+            }
+            else if(Option==2){
+                float h,b;
+                System.out.println("Enter  the height of the triangle");
+                h=s.nextFloat();
+                System.out.println("Enter  the base of the triangle");
+                b=s.nextFloat();
+                System.out.println("Area of given Triangle : "+.5*h*b);
+            }
+            else if(Option==3){
+                float l,b;
+                System.out.println("Enter  the length of the Rectangle :");
+                l=s.nextFloat();
+                System.out.println("Enter  the width of the Rectangle :");
+                b=s.nextFloat();
+                System.out.println("Area of given Rectangle  : "+l*b);
+            }
+            else if(Option==4){
+                float D1,D2;
+                System.out.println("Enter  the length of Diagonal 1 :");
+                D1=s.nextFloat();
+                System.out.println("Enter  the width of the Diagonal 2 :");
+                D2=s.nextFloat();
+                System.out.println("Area of given Rhombus  : "+.5*D1*D2);
+            }
+            else if(Option==5){
+                float h,b;
+                System.out.println("Enter  the height of the Rectangle :");
+                h=s.nextFloat();
+                System.out.println("Enter  the base of the Rectangle :");
+                b=s.nextFloat();
+                System.out.println("Area of given Rectangle  : "+h*b);
+            }
+            else if(Option==6){
+                float side;
+                System.out.println("Enter  the length of side of the Square :");
+                side=s.nextFloat();
+                System.out.println("Area of Square : "+side*side);
+            }
+            else {
+                System.out.println("INVALID INPUT");
+            }
+            s.close();
+
+        
+        }
+}
